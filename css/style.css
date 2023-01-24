@@ -263,6 +263,7 @@ section .text-container-last{
 
 .btn-last{
     padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .btn-last > button{
@@ -272,18 +273,12 @@ section .text-container-last{
     font-size: 1.2em;
 }
 
-
-
-
-
-
-
                       /* /main */
 
                       /* footer */
 
 footer{
-    background-color: black;
+    background-color: #23272a;
 }
 
 .foot-container{
@@ -292,7 +287,8 @@ footer{
     justify-content: space-between;
     gap: 10px;
 
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .foot-left{
@@ -305,11 +301,55 @@ footer{
     height: 200px;
 }
 
+.foot-text-left h4{
+    padding-bottom: 20px;
+
+    color: #7289da;
+
+    font-size: 1.4em;
+}
+
+.select-lenguage{
+    padding-bottom: 20px;
+}
+
+.ita-icon{
+    height: 15px;
+}
+
+.ita-icon img{
+    height: 100%;
+}
+
+.ita-icon span{
+    color: white;
+}
+
+.foot-left .container-social{
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-social a{
+    display: inline-block;
+
+    height: 20px;
+}
+
+.container-social img{
+    height: 100%;
+
+    filter:invert(1)
+}
+
 .foot-right{
     display: flex;
     flex-grow: 1;
     
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .foot-link-list{
@@ -318,8 +358,26 @@ footer{
     flex-grow: 1;
 }
 
+.foot-link-list strong{
+    color: #7289da;
+}
+
 .foot-right ul{
+    padding-top: 10px;
+
     list-style-type: none;
+}
+
+.foot-right ul li{
+    padding:8px 0;
+}
+
+.foot-right ul li a{
+    color: white;
+}
+
+hr{
+    color: #7289da;
 }
 
 .footbar{
@@ -330,11 +388,12 @@ footer{
     padding: 20px 0;
 }
 
-.footbar #register{
-    height: 70px;
-    width: 100px;
-    background-color: blueviolet;
+.btn-foot{
+    background-color: #7289da;
+
+    color: white;
 }
+
 
 
 
