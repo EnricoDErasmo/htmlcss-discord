@@ -35,6 +35,17 @@ button:hover{
     transform: scale(1.1);
 }
 
+.wave{
+    display: block;
+
+    opacity: 0.04;
+}
+
+.wave-reverse{
+    transform: rotate(180deg);
+
+}
+
                   /* header */
 
 /* navbar */
